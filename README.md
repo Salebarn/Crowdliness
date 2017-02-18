@@ -1,13 +1,18 @@
-# recommendationRaccoon (raccoon)
-
+# Salebarn / Crowdliness 
 <img align="right" src="http://i42.tinypic.com/2d12qli.png">
 
-An easy-to-use collaborative filtering based recommendation engine and NPM module built on top of Node.js and Redis. The engine uses the Jaccard coefficient to determine the similarity between users and k-nearest-neighbors to create recommendations. This module is useful for anyone with users, a store of products/movies/items, and the desire to give their users the ability to like/dislike and receive recommendations based on similar users. Raccoon takes care of all the recommendation and rating logic. It can be paired with any database as it does not keep track of any user/item information besides a unique ID.
+Crowdliness is a fork of [recommendationRaccoon](https://github.com/guymorita/recommendationRaccoon). It's nothing more than a sandbox ... for playing with and maybe wrecking the code ... in order to be able to USEFULLY contribute to implementing an [NPM module like recommendationRaccoon](https://www.npmjs.com/package/raccoon) in a community repo or to really [LEARN about practically exploiting Github](https://services.github.com/classnotes/). 
 
-Updated for ES6.
+Crowdliness will be an easy-to-use collaborative filtering based recommendation engine and NPM module built on top of Node.js and Redis Updated for ES6 ... it will compare different approaches to the the [Jaccard coefficient](https://en.wikipedia.org/wiki/Jaccard_index) to best determine the similarity between users and k-nearest-neighbors to create recommendations, but [thoroughly learning the Jacard coefficient](http://people.revoledu.com/kardi/tutorial/Similarity/Jaccard.html) is necessary, since will be the default or standard against which alternatives, such as variants on the [Simple Matching Coefficient](https://en.wikipedia.org/wiki/Simple_matching_coefficient) are judged. 
+
+Crowdliness will useful for people who buy and sell things, especially unique things or prototypes of things or brand new things or brand new companies.  The point is to give users the ability to selectively build crowds of people, sources or content which they trust in varying degrees based on a discovery and weighting algorithm that looks a likes/dislikes and develops recommendations based on crowd intelligence of selectively chosen similar users. 
+
+Crowdliness, will takes care of all the recommendation and rating logic. It can be paired with any database as it does not keep track of any user/item information besides a unique ID.
+
+
 
 #### Request of you
-If you enjoy using this module, please contribute by trying the benchmark repo and helping to optimize raccoon. Thanks! https://github.com/guymorita/benchmark_raccoon_movielens
+If you enjoy using the [recommendationRaccoon](https://github.com/guymorita/recommendationRaccoon) module, please contribute by trying the benchmark repo and helping to optimize raccoon. Thanks! https://github.com/guymorita/benchmark_raccoon_movielens
 
 [![Coverage Status](https://coveralls.io/repos/guymorita/recommendationRaccoon/badge.png?branch=master)](https://coveralls.io/r/guymorita/recommendationRaccoon?branch=master)
 [![Build Status](https://travis-ci.org/guymorita/recommendationRaccoon.svg?branch=master)](https://travis-ci.org/guymorita/recommendationRaccoon)
