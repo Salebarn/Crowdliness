@@ -1,5 +1,5 @@
 # Salebarn / Crowdliness 
-<img align="right" src="http://i42.tinypic.com/2d12qli.png">
+<img align="right" src="https://avatars2.githubusercontent.com/u/14020788?v=3&s=200">
 
 Crowdliness is a fork of [recommendationRaccoon](https://github.com/guymorita/recommendationRaccoon). It's nothing more than a sandbox ... for playing with and maybe wrecking the code ... in order to be able to USEFULLY contribute to implementing an [NPM module like recommendationRaccoon](https://www.npmjs.com/package/raccoon) in a community repo or to really [LEARN about practically exploiting Github](https://services.github.com/classnotes/). 
 
